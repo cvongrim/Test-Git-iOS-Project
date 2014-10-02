@@ -15,6 +15,7 @@
 		FCA66F6919DDD53500F384AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA66F6819DDD53500F384AD /* Images.xcassets */; };
 		FCA66F6C19DDD53500F384AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA66F6A19DDD53500F384AD /* LaunchScreen.xib */; };
 		FCA66F7819DDD53500F384AD /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA66F7719DDD53500F384AD /* Git_TestTests.m */; };
+		FCA66F8319DDD7BF00F384AD /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA66F8219DDD7BF00F384AD /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		FCA66F7119DDD53500F384AD /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA66F7619DDD53500F384AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA66F7719DDD53500F384AD /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FCA66F8119DDD7BF00F384AD /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		FCA66F8219DDD7BF00F384AD /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				FCA66F6A19DDD53500F384AD /* LaunchScreen.xib */,
 				FCA66F5F19DDD53500F384AD /* Git_Test.xcdatamodeld */,
 				FCA66F5819DDD53500F384AD /* Supporting Files */,
+				FCA66F8119DDD7BF00F384AD /* CCTest.h */,
+				FCA66F8219DDD7BF00F384AD /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				FCA66F5B19DDD53500F384AD /* main.m in Sources */,
 				FCA66F6419DDD53500F384AD /* ViewController.m in Sources */,
 				FCA66F6119DDD53500F384AD /* Git_Test.xcdatamodeld in Sources */,
+				FCA66F8319DDD7BF00F384AD /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
